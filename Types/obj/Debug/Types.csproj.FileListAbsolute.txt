@@ -1,0 +1,6 @@
+E:\TCS Project\Bank\FinalBanking\Types\bin\Debug\Types.dll
+E:\TCS Project\Bank\FinalBanking\Types\bin\Debug\Types.pdb
+E:\TCS Project\Bank\FinalBanking\Types\obj\Debug\Types.dll
+E:\TCS Project\Bank\FinalBanking\Types\obj\Debug\Types.pdb
+E:\TCS Project\Bank\FinalBanking\Types\obj\Debug\Types.csprojAssemblyReference.cache
+E:\TCS Project\Bank\FinalBanking\Types\obj\Debug\Types.csproj.CoreCompileInputs.cache
