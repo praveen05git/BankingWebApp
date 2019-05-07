@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="FinalBanking.Site2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+         <asp:Panel ID="Panel1" runat="server" BackColor="Black" Height="63px" Width="1266px">
+             &emsp;&emsp;&emsp;&emsp;
+             <asp:Label ID="Label1" runat="server" Text="FedChoice" ForeColor="Yellow" Font-Bold="True" Font-Size="Large" ></asp:Label>&nbsp;
+             <asp:Label ID="Label2" runat="server" Text="Bank" ForeColor="White" Font-Bold="True" Font-Size="Large"></asp:Label>
+             <br />
+            &emsp;&emsp;&emsp;&emsp;
+        <asp:Panel ID="Panel3" runat="server" BackColor="yellow" CssClass="auto-style3" Width="771px" Height="22px" style="margin-left: 67px">
+            
+        <asp:Menu ID="Menu1" runat="server" StaticEnableDefaultPopOutImage="false" Orientation="Horizontal" BackColor="Yellow" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#7C6F57" StaticSubMenuIndent="10px" BorderColor="Yellow" BorderStyle="Solid">
+        <DynamicHoverStyle BackColor="#000099" ForeColor="White" />
+        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+        <DynamicMenuStyle BackColor="#F7F6F3" />
+        <DynamicSelectedStyle BackColor="#5D7B9D" />
+        <Items>
+            <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Teller.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Transactions &amp;#9660" Value="Transactions">
+                <asp:MenuItem NavigateUrl="~/DepositMoney.aspx" Text="Deposit" Value="Deposit"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/WithdrawMoney.aspx" Text="Withdraw" Value="Withdraw"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/TransferMoney.aspx" Text="Transfer" Value="Transfer"></asp:MenuItem>
+            </asp:MenuItem>
+            <asp:MenuItem Text="Account Statement" Value="Account Statement" NavigateUrl="~/Viewbynooftransaction.aspx">
+            </asp:MenuItem>
+            <asp:MenuItem Text="Logout" Value="New Item" NavigateUrl="~/Login.aspx">
+            </asp:MenuItem>
+        </Items>
+        <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+        <StaticSelectedStyle BackColor="#5D7B9D" />
+    </asp:Menu>
+             </asp:Panel>
+             </asp:Panel>
+        <br />
+        <b>Logged in as:</b><asp:LoginName ID="LoginName1" runat="server" BackColor="#0066FF" ForeColor="White" />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <asp:Panel ID="Panel2" runat="server" BackColor="Black">
+            <center>
+                <table>
+                    <tr>
+                        <td>
+                            &nbsp;
+            <asp:Label ID="Label3" runat="server" Text="About Us"  Font-Bold="True" ForeColor="Yellow" Font-Size="Large"></asp:Label>
+            <br />
+            &nbsp;
+            <asp:Label ID="Label4" runat="server" Font-Size="Small" ForeColor="Gray" Text="FedChoice Bank was founded on 14th June 2016 with the objective of providing <br/>&nbsp;&nbsp;&nbsp;with the detail services based on Retail Banking operations. The Retail Internet<br/>&nbsp;&nbsp;&nbsp;Banking of FedChoice Bank offers a plethora of products and services, to cater<br/>&nbsp;&nbsp;&nbsp;its customers by providing certain animus services with an easy volving offers<br/>&nbsp;&nbsp;&nbsp;and ways to do the required job without hurdling the process "></asp:Label>
+            
+                        </td>
+                        <td>
+                           
+                        <asp:Label ID="Label5" runat="server" Font-Bold="true" Font-Size="Large" ForeColor="Yellow" Text="Services"></asp:Label>
+              <br /> &nbsp;
+            <asp:Label ID="Label7" runat="server" Font-Size="Small" ForeColor="Gray" Text="Retail and Consumer Banking<br/>&nbsp;&nbsp;&nbsp;Personal Internet Banking<br/>&nbsp;&nbsp;&nbsp;Corporate Internet Banking<br/>&nbsp;&nbsp;&nbsp;Debit and Credit Cards"></asp:Label>
+           
+                        </td>
+                        <td>
+                           
+                        <asp:Label ID="Label6" runat="server" Text="Contact Us" ForeColor="Yellow" Font-Size="Large"></asp:Label>
+                        &nbsp;<br />
+                        <asp:Label ID="Label8" runat="server" Text="&nbsp;&nbsp;&nbsp;Email:customer.service@fedchoice.com<br/>&nbsp;&nbsp;&nbsp;Contact No: 022-42406778, 022-54567890<br/>&nbsp;&nbsp;&nbsp;Address: Corporate Office, Madame Carna Road,<br/>&nbsp;&nbsp;&nbsp;Nariman Point, Mumbai, Maharashtra 400021" Font-Size="Small" ForeColor="Gray"></asp:Label>
+
+                    
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </asp:Panel>
+    </div>
+    </form>
+</body>
+</html>
