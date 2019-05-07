@@ -1,0 +1,14 @@
+E:\TCS Project\DAL\BO\bin\Debug\BO.dll
+E:\TCS Project\DAL\BO\bin\Debug\BO.pdb
+E:\TCS Project\DAL\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
+E:\TCS Project\DAL\BO\obj\Debug\BO.dll
+E:\TCS Project\DAL\BO\obj\Debug\BO.pdb
+E:\TCS Project\Bank\FinalBanking\DAL\BO\bin\Debug\BO.dll
+E:\TCS Project\Bank\FinalBanking\DAL\BO\bin\Debug\BO.pdb
+E:\TCS Project\Bank\FinalBanking\DAL\BO\obj\Debug\BO.dll
+E:\TCS Project\Bank\FinalBanking\DAL\BO\obj\Debug\BO.pdb
+E:\TCS Project\Bank\FinalBanking\DAL\BO\bin\Debug\Types.dll
+E:\TCS Project\Bank\FinalBanking\DAL\BO\bin\Debug\Types.pdb
+E:\TCS Project\Bank\FinalBanking\DAL\BO\obj\Debug\BO.csprojAssemblyReference.cache
+E:\TCS Project\Bank\FinalBanking\DAL\BO\obj\Debug\BO.csproj.CoreCompileInputs.cache
+E:\TCS Project\Bank\FinalBanking\DAL\BO\obj\Debug\BO.csproj.CopyComplete
